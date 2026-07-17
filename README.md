@@ -34,6 +34,8 @@ The analysis covers customer profiling, campaign effectiveness, spending pattern
 - Removed 1 income outlier (€666,666)
 - Standardized Marital_Status - recategorized non-standard values (Absurd, YOLO, Alone)
 - Created derived columns: Age, Age_Group, Income_Clean, Income_Segment, Income_Label, TotalSpend, TotalCampaigns, HasChildren
+- Applied Data Bars to Income_Clean column to visualize income distribution at a glance
+- Highlighted Top 30 customers by TotalSpend using conditional formatting (green fill)
 
 **Final clean dataset: 2,236 rows**
 
